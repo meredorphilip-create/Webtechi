@@ -1,0 +1,499 @@
+commit fc5eb20b3523ece4314f6a91c242af02a7d532e8
+Author:     Phill_nox <meredorphilip@gmail.com>
+AuthorDate: 2026-10-08 04:38:58 +0000
+Commit:     Phill_nox <meredorphilip@gmail.com>
+CommitDate: 2026-10-08 04:38:58 +0000
+
+    emmet-laboratory
+
+diff --git a/01-basic.html b/01-basic.html
+new file mode 100644
+index 0000000..abff7d8
+--- /dev/null
++++ b/01-basic.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>EMMET-LABORATORY</title>
++</head>
++<body>
++    <h1>Hello There!</h1>
++    <h2>I'm Meredor, Winston PHilip L.</h2>
++    <h2>This is my portfolio</h2>
++    <p></p>
++    <p></p>
++    <p></p>
++    <div></div>
++    <header></header>
++    
++    <nav></nav>
++    <main></main>
++    <footer></footer>
++
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/02-classes-ids.html b/02-classes-ids.html
+new file mode 100644
+index 0000000..42d81f0
+--- /dev/null
++++ b/02-classes-ids.html
+@@ -0,0 +1,91 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="intruction">
++
++    </p>
++
++    <div id="container">
++
++    </div>
++
++    <section id="about" class="content-section">
++
++    </section>
++
++    <header class = site-header>
++
++    </header>
++    <nav id = "main-nav">
++
++    </nav>
++    <main class = "content">
++
++    </main>
++
++    <section id = about>
++
++    </section>
++     <footer class =site-footer>
++
++     </footer>
++
++     <ul>
++        <li></li>
++     </ul>
++
++     <nav>
++        <ul>
++            <li></li>
++        </ul>
++     </nav>
++
++     <nav>
++        <ul>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++        </ul>
++     </nav>
++
++     <h1></h1>
++     <p></p>
++
++     <h1></h1>
++     <h2></h2>
++     <p></p>
++     <p></p>
++
++     <li></li>
++     <li></li>
++     <li></li>
++     <li></li>
++     <li></li>
++
++     <div></div>
++     <div></div>
++     <div></div>
++
++     <p></p>
++     <p></p>
++     <p></p>
++     <p></p>
++     <p></p>
++
++     <h1>web Technologies</h1>
++
++     <p>welcome to my webpage</p>
++
++     <h1>My Web Development journey</h1>
++     <p>i am learning HTML,CSS,JavaScript, and web development</p>
++
++     
++</body>
++</html>
+\ No newline at end of file
+diff --git a/03-navigation.html b/03-navigation.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/03-navigation.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..9817017
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,62 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++
++        <ul>
++            <li>menu 1</li>
++            <li>menu 2</li>
++            <li>menu 3</li>
++            <li>menu 4</li>
++            <li>menu 5</li>
++        </ul>
++    </ul>
++    <nav>
++        <ul>
++            <li>Home</li>
++            <li>About</li>
++            <li>Services</li>
++            <li>Projects</li>
++            <li>Contact</li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="Home"></a></li>
++            <li><a href="About"></a></li>
++            <li><a href="Portfolio"></a></li>
++            <li><a href="Services"></a></li>
++            <li><a href="Contact"></a></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li><a href="home">menu 1</a></li>
++            <li><a href="About">menu 2</a></li>
++            <li><a href="Portfolio">menu 3</a></li>
++            <li><a href="Services">menu 4</a></li>
++            <li><a href="Contact">menu 5</a></li>
++        </ul>
++    </nav>
++
++    <input type="text">
++    <input type="text" placeholder="Enter your name">
++    <input type="email" placeholder="meredorphilip@gmail.com">
++    <img src="images/profile.jpg" alt="profile photo">
++
++    <a href="https://www.google.com">google</a>
++
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..a786b58
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++    <input type="text" name="Winston Philip Meredor" id="143576">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++    
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..be6550a
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,58 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header class="h1"></header>
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++    <header>
++        <h1>Online Gambling must STOP</h1>
++
++        <main>
++            <section>
++                <article>People are in depth due to GAMBLING</article>
++            </section>
++        </main>
++
++        <footer>
++            <p>gamble responsibly</p>
++        </footer> 
++</header>
++
++
++</body>
++</html>
++
++
++<div class="container">
++    <header>
++        <h1>MyPortfolio</h1>
++        Web Developer
++        <nauv>
++            <ul>
++                <li></li>
++            </ul>
++        </nauv>
++    </header>
++</div>4>a{Menu $}
++
++<div class="comtainer">
++
++</div>
++
++> <header>
++
++</header>
++
++<h1>My Portfolio</h1>
++
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..1525f6f
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,144 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>Winston Philip L. Meredor</header>
++    <header>Hello There! </header>
++
++<na>
++    <ul>
++        <li><a href="Home">Home</a></li>
++        <li><a href="About">About</a></li>
++        <li><a href="Skills">Skills</a></li>
++        <li><a href="Projects">Projects</a></li>
++        <li><a href="Contract">Contact</a></li>
++    </ul>
++</na>
++
++<header>
++    <h1>My Portfolio</h1>
++   <nav>
++    <ul>
++        <li><a href="Home"></a></li>
++        <li><a href="About"></a></li>
++        <li><a href="Skills"></a></li>
++        <li><a href="Projects"></a></li>
++        <li><a href="Cotact Us"></a></li>
++    </ul>
++   </nav>
++</header>
++
++    <h1>About Me</h1>
++    <p>As a student who is studying far away from his hometown I learned a lot.</p>
++
++    <img src="images/profile.jpg" alt="Profile Photo">
++
++    <h2>
++        Skills Section
++    </h2>
++    <ul>
++        <li>
++            HTML
++        </li>
++        <li>
++            CSS
++        </li>
++        <li>
++            JavaScript
++        </li>
++        <li>
++            PHP
++        </li>
++        <li>
++            MySQL
++        </li>
++        <li>
++            Git
++        </li>
++    </ul>
++
++    <h3>
++        Project Section
++    </h3>
++        <div class="card project">
++            <form action="">
++                input <textarea name="" id=""></textarea>
++            </form>
++        
++        </div>
++        <div class="Description">
++            <form action="">
++                input <textarea name="" id=""></textarea>
++            </form>
++        </div>
++        <div class="Link">
++            <link rel="stylesheet" href="">
++        </div>
++
++      <section class="contact">
++    <h2>Contact</h2>
++
++    <form>
++        <label for="name">Name</label>
++        <input type="text" id="name" name="Name" placeholder="Philip Meredor">
++
++        <label for="email">Email</label>
++        <input type="email" id="email" name="email" placeholder="meredorp@gmail.com">
++
++        <label for="subject">Subject</label>
++        <input type="text" id="subject" name="subject" placeholder="CIT">
++
++        <label for="message">Message</label>
++        <textarea id="message" name="message" rows="5" placeholder="Goodluck"></textarea>
++
++        <button type="submit">Submit</button>
++    </form>
++</section>
++
++
++</body>
++</html>
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=htn, initial-scale=1.0">
++    <title>Emmet Cheat Sheet</title>
++</head>
++<body>
++    
++    <div class="card"> 
++        <input type="text" name="" id="">
++    </div>
++    <div id="main">
++        <input type="checkbox" name="" id="">
++    </div>
++
++    <ul>
++        <li>HUNK</li>
++    </ul>
++    <h1>Explanation</h1>
++    <p>Back to theground</p>
++<nav>
++    <ul>
++        <li>Home</li>
++        <li>About</li>
++        <li>Term</li>
++        <li></li>
++        <li></li>
++    </ul>
++</nav>
++</body>
++</html>
++
++  <footer>
++        <p>© 2026 - Your Name</p>
++    </footer>
++
++
++
+
+commit 53f88979dad5cdcb56352210bc95d260308630ad
+Author:     Phill_nox <meredorphilip@gmail.com>
+AuthorDate: 2026-09-15 11:55:46 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 11:55:46 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..d0e27ca
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# Webtechi
+\ No newline at end of file
